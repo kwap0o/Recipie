@@ -1,0 +1,85 @@
+@font-face {
+    font-family: YoungSerif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+}
+.line{
+    background-color: rgba(0, 0, 0, 0.28);
+    height: 2px;
+    width: 80%;
+    border-radius: 25%;
+    position:relative;
+    margin: 25px auto 0 auto;
+}
+.line2{
+    background-color: rgba(0, 0, 0, 0.28);
+    height: 1px;
+    width: 200%;
+    border-radius: 25%;
+    position:relative;
+}
+
+body{
+    background-color:antiquewhite;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    border-radius: 15px;
+    background-color: white;
+}
+.img img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+h1{
+    font-family: 'YoungSerif', sans-serif;
+    color: rgb(103, 51, 63);
+}
+
+.recipe h1{
+    color: black;
+}
+.recipe p{
+    text-align: center;
+}
+.preparation{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(176, 139, 163, 0.279);
+    padding: 20px;
+    width: 95%;
+    border-radius: 5px;
+}
+.preparation h1{
+    color: rgb(176, 139, 163);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.container ul>li::marker, ol>li::marker{
+    font-weight: bold;
+}
+.nutrition-box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.calories{
+
+    width: 49%;
+}
+
+.weight{
+    width: 49%;
+}
+.weight a {
+    color:rgb(54, 20, 28);
+    text-decoration: solid;
+}
